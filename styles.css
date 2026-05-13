@@ -1,0 +1,58 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+@font-face {
+  font-family: 'Germania One';
+  src:
+    local('Germania One'),
+    url('fonts/Germania_One/GermaniaOne-Regular.ttf') format('truetype');
+}
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 720px;
+  font-family: 'Germania One', system-ui;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100px;
+}
+
+header {
+  background-image: url('images/germany.webp');
+  background-size: cover;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1,
+h2 {
+  color: white;
+  max-width: fit-content;
+}
+
+h1 {
+  padding: 4px 12px;
+  border-radius: 10px;
+  background-color: #251f47;
+}
+
+h2 {
+  padding: 4px 12px;
+  border-radius: 10px;
+  background-color: #404e7c90;
+  font-size: 16px;
+  max-width: 450px;
+}
