@@ -22,6 +22,7 @@ body {
   font-family: 'Germania One', system-ui;
   letter-spacing: 1px;
   color: #251f47;
+  background-color: #e5e5e5;
 }
 
 img {
@@ -110,4 +111,42 @@ h5 {
 
 .activities p {
   font-size: 14px;
+}
+
+.guide {
+  padding: 50px 0;
+  background-color: white;
+  color: white;
+  text-shadow: 0 0 2px black;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  flex-flow: row-reverse;
+  align-items: center;
+  padding: 23px 13px;
+  background-color: #71b48d;
+  border-radius: 10px;
+  border-bottom: solid 7px #251f47;
+}
+
+.avatar {
+  width: 180px;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 12px;
 }
