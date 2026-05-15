@@ -105,8 +105,18 @@ h5 {
 
 .activity-logo {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  width: 100%;
+  height: 100%;
+  transition: all;
+  transition-duration: 0.3s;
+}
+
+.activity-logo:hover {
+  border-radius: 0%;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .activities p {
