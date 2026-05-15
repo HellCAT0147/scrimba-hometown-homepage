@@ -21,6 +21,7 @@ body {
   max-width: 720px;
   font-family: 'Germania One', system-ui;
   letter-spacing: 1px;
+  color: #251f47;
 }
 
 img {
@@ -32,15 +33,37 @@ header {
   background-size: cover;
   height: 340px;
   display: flex;
+  gap: 15px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+main {
+  background-color: #86cb9299;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 30px;
+  gap: 20px;
 }
 
 h1,
 h2 {
   color: white;
   max-width: fit-content;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 
 h1 {
@@ -55,4 +78,36 @@ h2 {
   background-color: #404e7c90;
   font-size: 16px;
   max-width: 450px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h5 {
+  font-size: 16px;
+}
+
+.activities {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.activity {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.activity-logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.activities p {
+  font-size: 14px;
 }
